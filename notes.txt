@@ -1,0 +1,11 @@
+public key
+pk_test_51QYTJJJz2vfLMZiqzqt93Dxb3S8sj8TYAuHQOuNhRHLthxFDGL2h7RZz97YWH7Ptkr2U53ZglK9jehd5qV1FiU5w000LvNTz5D
+secret key
+sk_test_51QYTJJJz2vfLMZiqylqu28ZPuDCERWkIeGu1fEwE5RbcBgZez6JgQ7LEwrlVmEWePc1UsdphBXKdWCCIQ1NOKOIf005KJ8vn2a
+stripe dependency
+<!-- https://mvnrepository.com/artifact/com.stripe/stripe-java -->
+<dependency>
+    <groupId>com.stripe</groupId>
+    <artifactId>stripe-java</artifactId>
+    <version>28.2.0</version>
+</dependency>
