@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping()
+@RequestMapping("/stripe")
 public class ProductCheckoutController {
     @PostMapping("/payment")
     public ResponseEntity<StripeResponse> checkoutProducts(@RequestBody ProductRequest productRequest) throws StripeException {
